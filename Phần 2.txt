@@ -1,0 +1,15 @@
+
+Phần 2:  Cài đặt môi trường làm việc
+
+    - Video 03: Tạo ReactJS project với Create React App
+        + Gõ lệnh 'npx create-react-app learn-reactjs' trong git bash để tạo dự án react-js có tên là 'learn-reactjs'
+        + Di chuyển vào thư mục dự án: 'cd learn-reactjs'
+        + Dùng lệnh: 'code .' để mở dự án bằng vscode
+        + Sau đó mở terminal trong vscode ở chế độ bash, gõ lệnh 'npm start' để khởi chạy dự án trên trình duyệt
+
+
+    - Video 04: Cấu trúc thư mục của dự án ReactJS
+        + Giải thích về file package.json (52s)
+        + Giải thích về file index.js - ko dc rename (3p16s)
+        + Giải thích về file index.html - ko dc rename (4p14s)
+        + Các thư mục trong 'node_modules' sẽ không được đẩy lên github - được quy định trong file '.gitignore' - là quy định những thư mục hoặc file ko được đẩy lên github

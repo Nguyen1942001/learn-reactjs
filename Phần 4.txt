@@ -1,0 +1,29 @@
+
+Phần 4: Tổng quan về component
+
+    - Video 01: JSX - Cú pháp được sử dụng trong ReactJS
+        + Là code của Javascript. Viết bằng JSX giúp cho việc viết html css dễ hiểu hơn - viết bằng Javascript thuần rất phức tạp
+        + 2 từ khóa đặc biệt: class trong html chuyển thành className, for trong html chuyển thành htmlFor - vì 2 từ khóa class và for đã có sẵn trong Javascript
+        + Phải import React khi sử dụng JSX
+
+    - Video 02: Mount component lên DOM với ReactDOM.render()
+        + Hàm ReactDOM.render() được sử dụng duy nhất 1 lần và sử dụng trong file src\index.js
+        + Đầu vào của dự án ReactJS là file src\index.js
+
+    - Video 03: Component - Trung tâm vũ trụ của ReactJS
+        + Có 2 loại: class component và functional component - sẽ viết theo functional component - chức năng 2 loại tương tự nhau, đều trả về JSX
+
+    - Video 04: Phân biệt giữa Container và Presentational component
+        + Container: Lấy dữ liệu của server, sau đó truyền xuống Presentational component
+        + Presentational component: Nhận dữ tiệu của Container, render lên web
+
+    - Video 05: Bài tập phân tích cây component 1
+        + Xem video
+
+    - Video 06: Bài tập phân tích cây component 2
+        + Xem video
+
+    - Video 07: Bài tập phân tích cây component 3
+        + Xem video
+    
+    

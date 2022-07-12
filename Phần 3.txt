@@ -1,0 +1,24 @@
+
+Phần 3: Setup auto deploy với Vercel
+
+    - Video 01: 2 cách khác nhau để clone một Github repository
+        + 2 cách: dùng HTTPS hoặc dùng SSH
+
+    - Video 02: Tạo SSH key dưới local
+        + Tạo SSH key: nhập lệnh 'ssh-keygen -t rsa -b 4096 -C "khoinguyen1942001@gmail.com"' (24s)
+        + Thêm SSH key vào ssh-agent
+            . Nhập lệnh: 'eval $(ssh-agent -s)'
+            . Nhập lệnh: 'ssh-add ~/.ssh/id_rsa'
+        + Kiểm tra đã tạo SSH key thành công hay chưa
+            . cd ~
+            . cd .ssh/
+            . ls -al
+
+    Video 03: Thêm SSH key vào tài khoản Github
+        + Copy public key: nhập lệnh 'clip < ~/.ssh/id_rsa.pub'
+        + Đưa public key vừa copy lên github (1p10s)
+        + Kiểm tra xem đã thêm SSH vào github thành công chưa: nhập lệnh 'ssh -T git@github.com', chọn yes nếu dược hỏi => 'Hi Nguyen1942001! You've successfully authenticated, but GitHub does not provide shell access.' ra như vậy là thành công
+
+    Video 004: Push code lần đầu lên Github
+
+    Video 005: Cấu hình auto deploy với Vercel (vercel.com)

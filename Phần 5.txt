@@ -1,0 +1,38 @@
+
+Phần 5: Props và Composition
+
+    - Video 01: Props là gì, Composition là gì
+        + Props được truyền dữ liệu từ component cha xuống component con
+        + Ở component con không thể thay đổi được Props, muốn thay đổi thì nhờ component cha
+        + Cùng một component với các Props khác nhau, thì render ra khác nhau - điều kiện là giao diện đó tương tự nhau - dùng chung 1 component
+
+    - Video 02: Props type checking
+        + Khai báo kiểu dữ liệu của props - để dễ quản lý khi dự án lớn (có thể không cần khai báo)
+        + Khai báo kiểu dữ liệu của props sẽ thông báo lỗi khi mình truyền props sai kiểu dữ liệu
+
+    - Video 03: Render elements in reactjs
+        + Xem Video
+
+    - Video 04: Folder structure - sử dụng 'rsfp' để tạo nhanh 
+        + src
+          |__ components (shared components between features)
+          |   |__ Loading 
+          |       |__ index.jsx
+          |       |__ styles.scss
+          |
+          |__ features
+          |   |__ Todo
+          |      |__ components (components of feature Todo)
+          |      |__ pages (pages of feature Todo)
+          |      |__ index.jsx (entry point of feature Todo)
+          |
+          |__ App.js
+
+    - Video 05: Lab TodoList
+        + Giúp hiểu rõ được luồng dữ liệu chạy giữa Container và Presentational component (1 container và 1 component)
+
+    - Video 06: Lab AlbumList
+        + Giúp hiểu rõ được luồng dữ liệu chạy giữa Container và Presentational component (1 container và 2 component)
+        + Dùng lệnh: 'npm i -D sass' để cài đặt sass (có thể chèn file .scss vào dự án ReactJS) (3p26s)
+    
+    
